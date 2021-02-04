@@ -355,7 +355,7 @@ template {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -388,7 +388,6 @@ li {
 }
 
 .navigation {
-  font-family: 'Roboto', sans-serif;
   color: #212121;
   font-style: normal;
   font-weight: 500;
@@ -397,22 +396,13 @@ li {
 }
 
 .navigation:hover,
-.navigation:focus {
+.navigation:focus,
+.current {
   color: var(--brand-color);
-}
-
-.navigation-active {
-  font-family: 'Roboto', sans-serif;
-  color: var(--brand-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
 }
 
 .adress {
-  font-family: 'Roboto', sans-serif;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -420,7 +410,6 @@ li {
 }
 
 .contacts {
-  font-family: 'Roboto', sans-serif;
   color: var(--secondary-info-color);
   font-style: normal;
   font-weight: 500;
@@ -499,6 +488,7 @@ h3 {
 
 .portfolio-sorting {
   color: var(--main-text);
+  font-family: 'Raleway', sans-serif;
   background-color: #f5f4fa;
   font-style: normal;
   font-weight: 500;
