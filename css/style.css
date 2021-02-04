@@ -477,6 +477,10 @@ h3 {
   vertical align: top;
 }
 
+li {
+  list-style-type: none;
+}
+
 .section-3 {
   font-size: 16px;
   line-height: 19px;
@@ -492,3 +496,4 @@ h3 {
 .position {
   color: var(--secondary-info-color);
 }
+
