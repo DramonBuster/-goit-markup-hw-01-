@@ -396,7 +396,8 @@ li {
   line-height: 16px;
 }
 
-.navigation:hover {
+.navigation:hover,
+.navigation:focus {
   color: var(--brand-color);
 }
 
@@ -427,7 +428,8 @@ li {
   line-height: 24px;
 }
 
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: var(--brand-color);
 }
 
@@ -506,7 +508,8 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-.portfolio-sorting:hover {
+.portfolio-sorting:hover,
+.portfolio-sorting:focus {
   color: #fff;
   background-color: var(--brand-color);
 }
