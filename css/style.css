@@ -366,6 +366,10 @@ footer {
   background-color: #2f303a;
 }
 
+li {
+  list-style-type: none;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   color: var(--brand-color);
@@ -432,16 +436,6 @@ footer {
   text-align: center;
 }
 
-h1 {
-  font-weight: 900;
-  font-style: normal;
-  font-size: 44px;
-  line-height: 60px;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
 .service-button {
   background-color: var(--brand-color);
   color: #fff;
@@ -456,6 +450,16 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--secondary-info-color);
+}
+
+h1 {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 h2 {
@@ -473,10 +477,6 @@ h3 {
   text-align: left;
   vertical-align: top;
   color: var(--main-text);
-}
-
-li {
-  list-style-type: none;
 }
 
 .section-3 {
