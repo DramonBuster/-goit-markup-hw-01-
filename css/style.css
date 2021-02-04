@@ -346,3 +346,73 @@ template {
 [hidden] {
   display: none;
 }
+
+:root {
+  --brand-color: #2196f3;
+  --secondary-info-color: #757575;
+}
+
+header {
+  background-color: #fff;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo > span {
+  color: var(--brand-color);
+}
+
+.navigation {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.navigation:hover {
+  color: var(--brand-color);
+}
+
+.navigation-active {
+  font-family: 'Roboto', sans-serif;
+  color: var(--brand-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.adress {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contacts {
+  font-family: 'Roboto', sans-serif;
+  color: var(--secondary-info-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contacts:hover {
+  color: var(--brand-color);
+}
