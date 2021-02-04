@@ -428,6 +428,12 @@ li {
 }
 
 .service-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
   background-color: var(--brand-color);
   color: #fff;
   text-decoration: none;
